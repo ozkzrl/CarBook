@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3/xsYryafa/dy1g7hCkWym9r2nOSG+k3zEfk88J//gqhjGBnyMsH+pufdvBjh4wtYDhmw52lkV/zaByQHZgw5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ozkan\\source\\repos\\UdemyCarBook\\Application\\UdemyCarBook.Application\\UdemyCarBook.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
