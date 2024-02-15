@@ -16,18 +16,21 @@ namespace UdemyCarBook.Webapi.Controllers
         private readonly RemoveCarCommandHandler _removeCarCommandHandler;
         private readonly GetCarQueryHandler _getCarQueryHandler;
         private readonly GetCarByIdQueryHandler _getCarByIdQueryHandler;
+        private readonly GetCarWithBrandQueryHandler _getCarWithBrandQueryHandler;
 
-        public CarsController(CreateCarCommandHandler createCarCommandHandler, 
-            UpdateCarCommandHandler updateCarCommandHandler, 
-            RemoveCarCommandHandler removeCarCommandHandler, 
+        public CarsController(CreateCarCommandHandler createCarCommandHandler,
+            UpdateCarCommandHandler updateCarCommandHandler,
+            RemoveCarCommandHandler removeCarCommandHandler,
             GetCarQueryHandler getCarQueryHandler,
-            GetCarByIdQueryHandler getCarByIdQueryHandler)
+            GetCarByIdQueryHandler getCarByIdQueryHandler,
+            GetCarWithBrandQueryHandler getCarWithBrandQueryHandler)
         {
             _createCarCommandHandler = createCarCommandHandler;
             _updateCarCommandHandler = updateCarCommandHandler;
             _removeCarCommandHandler = removeCarCommandHandler;
             _getCarQueryHandler = getCarQueryHandler;
             _getCarByIdQueryHandler = getCarByIdQueryHandler;
+            _getCarWithBrandQueryHandler = getCarWithBrandQueryHandler;
         }
         [HttpGet]
         public async Task<IActionResult> CarList()
@@ -62,6 +65,12 @@ namespace UdemyCarBook.Webapi.Controllers
         {
             await _updateCarCommandHandler.Handle(command);
             return Ok("Araba güncellendi.");
+        }
+        [HttpGet("GetCarWithBrand")]
+        public IActionResult GetCarWithBrand()
+        {
+            var values =  _getCarWithBrandQueryHandler.Handle();
+            return Ok(values);
         }
     }
 }

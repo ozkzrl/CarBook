@@ -13,3 +13,4 @@ C:\Users\ozkan\source\repos\UdemyCarBook\Application\UdemyCarBook.Application\ob
 C:\Users\ozkan\source\repos\UdemyCarBook\Application\UdemyCarBook.Application\obj\Debug\net8.0\refint\UdemyCarBook.Application.dll
 C:\Users\ozkan\source\repos\UdemyCarBook\Application\UdemyCarBook.Application\obj\Debug\net8.0\UdemyCarBook.Application.pdb
 C:\Users\ozkan\source\repos\UdemyCarBook\Application\UdemyCarBook.Application\obj\Debug\net8.0\ref\UdemyCarBook.Application.dll
+C:\Users\ozkan\source\repos\UdemyCarBook\Application\UdemyCarBook.Application\obj\Debug\net8.0\UdemyCarBook.Application.sourcelink.json

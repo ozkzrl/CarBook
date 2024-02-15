@@ -7,7 +7,7 @@ using UdemyCarBook.Domain.Entities;
 
 namespace UdemyCarBook.Application.Features.CQRS.Results.CarResults
 {
-    public class GetCarQueryResult
+    public class GetCarWithBrandQueryReult
     {
 
         public int CarID { get; set; }

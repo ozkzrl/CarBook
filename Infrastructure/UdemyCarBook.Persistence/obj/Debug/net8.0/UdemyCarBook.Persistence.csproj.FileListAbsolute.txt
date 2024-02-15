@@ -17,3 +17,4 @@ C:\Users\ozkan\source\repos\UdemyCarBook\Infrastructure\UdemyCarBook.Persistence
 C:\Users\ozkan\source\repos\UdemyCarBook\Infrastructure\UdemyCarBook.Persistence\obj\Debug\net8.0\ref\UdemyCarBook.Persistence.dll
 C:\Users\ozkan\source\repos\UdemyCarBook\Infrastructure\UdemyCarBook.Persistence\bin\Debug\net8.0\UdemyCarBook.Application.dll
 C:\Users\ozkan\source\repos\UdemyCarBook\Infrastructure\UdemyCarBook.Persistence\bin\Debug\net8.0\UdemyCarBook.Application.pdb
+C:\Users\ozkan\source\repos\UdemyCarBook\Infrastructure\UdemyCarBook.Persistence\obj\Debug\net8.0\UdemyCarBook.Persistence.sourcelink.json

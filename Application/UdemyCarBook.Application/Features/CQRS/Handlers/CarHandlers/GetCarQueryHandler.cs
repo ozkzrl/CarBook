@@ -18,10 +18,10 @@ namespace UdemyCarBook.Application.Features.CQRS.Handlers.CarHandlers
             _repository = repository;
         }
 
-        public async Task<List<GetCarQueryResult>> Handle()
+        public async Task<List<GetCarWithBrandQueryReult>> Handle()
         {
             var values= await _repository.GetAllAsync();
-            return values.Select(x => new GetCarQueryResult
+            return values.Select(x => new GetCarWithBrandQueryReult
             {
             
                 BrandID=x.BrandID,
