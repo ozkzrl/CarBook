@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "3/xsYryafa/dy1g7hCkWym9r2nOSG+k3zEfk88J//gqhjGBnyMsH+pufdvBjh4wtYDhmw52lkV/zaByQHZgw5Q==",
+  "dgSpecHash": "h7E8qUv5eHXO7v/tfvbBWAlq9FRNBbXR7/OZpHbEWVXEs/ojuogA2G2urrP1Jl9ekxXziLWm5jbAfDpDgOqz1w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ozkan\\source\\repos\\UdemyCarBook\\Application\\UdemyCarBook.Application\\UdemyCarBook.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ozkan\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

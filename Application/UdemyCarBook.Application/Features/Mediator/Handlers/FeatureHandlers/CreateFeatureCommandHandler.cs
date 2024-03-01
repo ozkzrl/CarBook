@@ -1,0 +1,30 @@
+﻿using MediatR;
+using System.Threading;
+using System.Threading.Tasks;
+using UdemyCarBook.Application.Interfaces;
+using UdemyCarBook.Application.Features.Mediator.Commands.FeatureCommands;
+using UdemyCarBook.Domain.Entities;
+
+namespace UdemyCarBook.Application.Features.Mediator.Handlers.FeatureHandlers
+{
+    public class CreateFeatureCommandHandler : IRequestHandler<CreateFeatureCommand>
+    {
+        private readonly IRepository<Feature> _repository;
+
+        public CreateFeatureCommandHandler(IRepository<Feature> repository)
+        {
+            _repository = repository;
+        }
+
+        public async Task<Unit> Handle(CreateFeatureCommand request, CancellationToken cancellationToken)
+        {
+            await _repository.CreateAsync(new Feature
+            {
+                Name = request.Name,
+                // Diğer özellikler buraya eklenebilir.
+            });
+
+            return Unit.Value; // Başarılı işlem sonucunu temsil eder.
+        }
+    }
+}

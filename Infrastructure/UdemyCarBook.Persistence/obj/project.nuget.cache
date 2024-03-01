@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "mZrrySEy2NJ5cjiP75G+TfNFVYg1M7PyZ1UwfXPquOpNZsirG0yOh6VPCJVO+mWMx/BQ0Hnjiuc6JYCzIIDXIQ==",
+  "dgSpecHash": "PIbNuBO6Z1oB10YhltL43C+McsnoI5nb8WYLesPSooMfJyGT4tQ8uBbZTD1lvwToqXoX9+q4I8F0mwfK3RiP2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ozkan\\source\\repos\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ozkan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

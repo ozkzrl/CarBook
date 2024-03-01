@@ -69,8 +69,5 @@ namespace UdemyCarBook.Webapi.Controllers
             return Ok("Kategori silindi.");
 
         }
-            
-
-
     }
 }
