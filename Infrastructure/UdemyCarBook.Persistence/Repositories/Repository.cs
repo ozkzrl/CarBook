@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UdemyCarBook.Application.Interfaces;
+using UdemyCarBook.Domain.Entities;
 using UdemyCarBook.Persistence.CarBookContext;
 
 namespace UdemyCarBook.Persistence.Repositories
@@ -45,7 +46,5 @@ namespace UdemyCarBook.Persistence.Repositories
             _dbContext.Set<T>().Update(entity);
             await _dbContext.SaveChangesAsync();
         }
-
-       
     }
 }

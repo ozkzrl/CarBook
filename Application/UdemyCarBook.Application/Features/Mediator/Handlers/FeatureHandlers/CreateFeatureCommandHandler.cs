@@ -16,15 +16,13 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.FeatureHandlers
             _repository = repository;
         }
 
-        public async Task<Unit> Handle(CreateFeatureCommand request, CancellationToken cancellationToken)
+        public async Task Handle(CreateFeatureCommand request, CancellationToken cancellationToken)
         {
             await _repository.CreateAsync(new Feature
             {
                 Name = request.Name,
-                // Diğer özellikler buraya eklenebilir.
+               
             });
-
-            return Unit.Value; // Başarılı işlem sonucunu temsil eder.
         }
     }
 }

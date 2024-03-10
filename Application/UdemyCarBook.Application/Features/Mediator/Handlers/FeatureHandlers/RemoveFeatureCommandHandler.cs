@@ -19,13 +19,12 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.FeatureHandlers
             _repository = repository;
         }
 
-        public async Task<Unit> Handle(RemoveFeatureCommand request, CancellationToken cancellationToken)
+        public async Task Handle(RemoveFeatureCommand request, CancellationToken cancellationToken)
         {
          
             var values= await _repository.GetByIdAsync(request.Id);
             await _repository.RemoveAsync(values);
 
-            return Unit.Value;
         }
     }
 }

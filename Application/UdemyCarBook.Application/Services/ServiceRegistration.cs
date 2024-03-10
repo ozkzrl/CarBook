@@ -12,10 +12,10 @@ namespace UdemyCarBook.Application.Services
 {
     public static class ServiceRegistration
     {
-        //public static void AddApplicationServie(this IServiceCollection services, IConfiguration configuration)
-        //{
-        //    services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(ServiceRegistration).Assembly));
-        //}
+        public static void AddApplicationService(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddMediatR(cfg=>cfg.RegisterServicesFromAssembly(typeof(ServiceRegistration).Assembly));
+        }
     }
 }
  

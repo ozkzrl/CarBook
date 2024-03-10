@@ -141,3 +141,6 @@ C:\Users\ozkan\source\repos\UdemyCarBook\Presentation\UdemyCarBook.Webapi\obj\De
 C:\Users\ozkan\source\repos\UdemyCarBook\Presentation\UdemyCarBook.Webapi\bin\Debug\net8.0\UdemyCarBook.Application.dll
 C:\Users\ozkan\source\repos\UdemyCarBook\Presentation\UdemyCarBook.Webapi\bin\Debug\net8.0\UdemyCarBook.Application.pdb
 C:\Users\ozkan\source\repos\UdemyCarBook\Presentation\UdemyCarBook.Webapi\obj\Debug\net8.0\UdemyCarBook.Webapi.sourcelink.json
+C:\Users\ozkan\source\repos\UdemyCarBook\Presentation\UdemyCarBook.Webapi\bin\Debug\net8.0\MediatR.dll
+C:\Users\ozkan\source\repos\UdemyCarBook\Presentation\UdemyCarBook.Webapi\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ozkan\source\repos\UdemyCarBook\Presentation\UdemyCarBook.Webapi\bin\Debug\net8.0\MediatR.Contracts.dll

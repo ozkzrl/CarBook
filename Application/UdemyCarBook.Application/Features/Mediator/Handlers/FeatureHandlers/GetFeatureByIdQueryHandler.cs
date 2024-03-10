@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,6 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.FeatureHandlers
 {
     public class GetFeatureByIdQueryHandler : IRequestHandler<GetFeatureByIdQuery, GetFeatureByIdQueryResult>
     {
-
         private readonly IRepository<Feature> _repository;
 
         public GetFeatureByIdQueryHandler(IRepository<Feature> repository)
@@ -23,13 +23,24 @@ namespace UdemyCarBook.Application.Features.Mediator.Handlers.FeatureHandlers
 
         public async Task<GetFeatureByIdQueryResult> Handle(GetFeatureByIdQuery request, CancellationToken cancellationToken)
         {
-            var values = await _repository.GetByIdAsync(request.Id);
-            return new GetFeatureByIdQueryResult
-            {
-                FeatureID=values.FeatureID,
-                Name=values.Name,
+            var feature = await _repository.GetByIdAsync(request.Id);
 
-            };
+            if (feature != null)
+            {
+                return new GetFeatureByIdQueryResult
+                {
+                    FeatureID = feature.FeatureID,
+                    Name = feature.Name
+                };
+            }
+            else
+            {
+                return new GetFeatureByIdQueryResult
+                {
+                    Message = $"Belirtilen kimliğe sahip özellik bulunamadı: {request.Id}"
+                };
+
+            }
         }
     }
 }

@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "PIbNuBO6Z1oB10YhltL43C+McsnoI5nb8WYLesPSooMfJyGT4tQ8uBbZTD1lvwToqXoX9+q4I8F0mwfK3RiP2Q==",
+  "dgSpecHash": "hme138tezD4v4ZY2cLB99gRgxIAFNcZZxlyt5ELj//js3t76dPV5LX02YmouUGB27/Un/YQ8HQ5+nY9Uib1fEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ozkan\\source\\repos\\UdemyCarBook\\Infrastructure\\UdemyCarBook.Persistence\\UdemyCarBook.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ozkan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\ozkan\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
